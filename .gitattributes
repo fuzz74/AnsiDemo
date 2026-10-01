@@ -1,0 +1,3 @@
+* text=auto
+# Goldens are compared byte-for-byte (ignoring '\r'); keep them untouched.
+*.ansi -text

@@ -1,0 +1,31 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+out/
+
+# Test results and coverage
+TestResults/
+*.trx
+coverage*/
+*.coverage
+
+# Golden mismatches written by Golden.Assert
+*.actual.ansi
+
+# IDE and tool caches
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local env files
+.env
+.env.*
+*.local.json
